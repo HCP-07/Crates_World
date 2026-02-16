@@ -1,5 +1,5 @@
 # Crate Opening Game
-
+![InterFace](C_W1.png)
 A text-based simulation game written in **C++** where players test their luck by opening various tiers of loot crates. The game features a real-time "Stock Refresh" system and vibrant ANSI color coding for an immersive terminal experience.
 
 ## Features
@@ -15,7 +15,8 @@ A text-based simulation game written in **C++** where players test their luck by
     * 🌈 **Divine ($40,000)**
 * **Rarity System:** Items range from "Broken Lamps" to "Eternal Black Holes" with varying sell prices.
 * **Vibrant UI:** Utilizes ANSI escape codes for a colorful terminal interface.
-
+![Crates](C_W2.png)
+![Crates](C_W3.png)
 ## Tech Stack
 
 * **Language:** C++

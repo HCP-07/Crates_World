@@ -16,7 +16,7 @@ using namespace std;
 #define M   "\033[35m" //magneta  //Custom Colors
 int main(){
     srand(time(NULL));
-    int opt=0,money=100000,opts1,opt1,r1,opt2,opt3,l=1,l1=1;
+    int opt=0,money=100,opts1,opt1,r1,opt2,opt3,l=1,l1=1;
     char a[10] = {'M' , 'A' ,'J' , 'P' , 'S' ,'D'}; int r2,l2=1,min1=0,hour1=0,k=0,m,o=0;// j-M+A
     int min; string t;
       string colors[] = { "\033[31m","\033[91m","\033[33m","\033[32m","\033[34m","\033[35m","\033[95m" };
@@ -523,5 +523,6 @@ switch (opt) {
 } //while(l1 > 0 && l1 == 1);
 while(o == 0);
   cout<<YELLOW<<"\n<-----------()------------->\n"<<RESET;
+
 
 }

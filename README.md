@@ -36,6 +36,9 @@ A text-based simulation game written in **C++** where players test their luck by
 3.  **Navigate the Menu:** Use the number keys to select crates or check crate info.
 4.  **Check Stock:** If a crate is "Not In Stock," wait a minute for the system time to refresh!
 
+## Execution :
+To run the executable, you may need to click 'More Info' -> 'Run Anyway' if Windows Protector blocks it.
+
 ## Author:
 * **HCP** - *Initial version-V1* - (Date: 2026-03-02)
 

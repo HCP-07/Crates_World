@@ -37,6 +37,7 @@ A text-based simulation game written in **C++** where players test their luck by
 4.  **Check Stock:** If a crate is "Not In Stock," wait a minute for the system time to refresh!
 
 ## Execution :
+For Now Given For - Windows
 To run the executable, you may need to click 'More Info' -> 'Run Anyway' if Windows Protector blocks it.
 
 ## Author:

@@ -4,6 +4,7 @@
 #include<iostream>
 #include<ctime>
 #include<string>
+#include<windows.h>
 using namespace std;
 #define RESET "\033[0m"
 #define RED "\033[31m"
@@ -15,6 +16,13 @@ using namespace std;
 #define v   "\033[95m" //violet
 #define M   "\033[35m" //magneta  //Custom Colors
 int main(){
+	#ifdef _WIN32
+    HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
+    DWORD dwMode = 0;
+    GetConsoleMode(hOut, &dwMode);
+    dwMode |= ENABLE_VIRTUAL_TERMINAL_PROCESSING;
+    SetConsoleMode(hOut, dwMode);
+#endif
     srand(time(NULL));
     int opt=0,money=100,opts1,opt1,r1,opt2,opt3,l=1,l1=1;
     char a[10] = {'M' , 'A' ,'J' , 'P' , 'S' ,'D'}; int r2,l2=1,min1=0,hour1=0,k=0,m,o=0;// j-M+A
@@ -526,3 +534,4 @@ while(o == 0);
 
 
 }
+

@@ -1,5 +1,8 @@
-# Crate Opening Game
-![InterFace](C_W1.png)
+# Crates World 
+**InterFace**
+<img width="908" height="627" alt="C_W1" src="https://github.com/user-attachments/assets/73d37e93-c9ae-47f4-920a-43c9687d62d0" />
+
+
 A text-based simulation game written in **C++** where players test their luck by opening various tiers of loot crates. The game features a real-time "Stock Refresh" system and vibrant ANSI color coding for an immersive terminal experience.
 
 ## Features
@@ -15,8 +18,12 @@ A text-based simulation game written in **C++** where players test their luck by
     * 🌈 **Divine ($40,000)**
 * **Rarity System:** Items range from "Broken Lamps" to "Eternal Black Holes" with varying sell prices.
 * **Vibrant UI:** Utilizes ANSI escape codes for a colorful terminal interface.
-![Crates](C_W2.png)
-![Crates](C_W3.png)
+**1.Crates**
+<img width="903" height="645" alt="C_W2" src="https://github.com/user-attachments/assets/b9e90a32-a6ac-421c-a999-407f764cb5b9" />
+
+**2.Crates Opening Glimpse**
+<img width="828" height="939" alt="C_W3" src="https://github.com/user-attachments/assets/c9a7486c-583e-4def-a75f-e2f13601a4ab" />
+
 ## Tech Stack
 
 * **Language:** C++
